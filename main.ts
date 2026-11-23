@@ -6,10 +6,10 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-// v1: a small good thing that happened today — warm, concrete, with a
-// small surprise in the telling.
+// v2 (revised from v1): sharper time, a name for the cat, a punchier
+// rent joke, and a warmer closing beat — she stayed for breakfast.
 const LINE =
-  "This morning the stray cat that steals my samosas left a dead leaf on my doorstep, like rent — so I paid her back in biscuits and she purred like a kettle.";
+  "At 7 a.m. the stray cat I call Chai, who steals my samosas, left a dead leaf on my doorstep — rent, apparently. I paid her in biscuits; she purred like a kettle and stayed for breakfast.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
